@@ -2,6 +2,8 @@
 
 A dynamic and interactive portfolio website with a comic book/manga aesthetic, featuring animated elements, sound effects, and a unique visual style.
 
+🔗 **Live Demo:** [View the Portfolio](https://colaguevz.github.io/Sample-Portfolio--Comic-Theme-/)
+
 ## 🎨 Features
 
 - **Comic Book Aesthetics**
