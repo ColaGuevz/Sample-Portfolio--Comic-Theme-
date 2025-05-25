@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[YOUR ARTIST NAME] - The Digital Scroll</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Permanent+Marker&family=Kalam:wght@300;400;700&family=Short+Stack&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="ink-splatter-cursor"> <!-- Ink splatter via CSS cursor -->
+
+    <div class="page-border-overlay top"></div>
+    <div class="page-border-overlay bottom"></div>
+    <div class="page-border-overlay left"></div>
+    <div class="page-border-overlay right"></div>
+
+    <div id="sound-effect-display" class="sound-effect"></div>
+
+    <header id="title-sequence">
+        <div class="logo-container">
+            <h1 class="main-title title-panel-bg" data-content="[YOUR ARTIST NAME]">
+                <span>[YOUR ARTIST NAME]</span>
+            </h1>
+            <p class="subtitle comic-text">// VOL. 01: THE ORIGIN STORY //</p>
+        </div>
+        <nav id="chapter-select">
+            <ul>
+                <li><a href="#character-file" class="nav-link " data-hover-sound="WHOOSH!">PROFILE</a></li>
+                <li><a href="#story-arcs" class="nav-link" data-hover-sound="SWIPE!">CREATIONS</a></li>
+                <li><a href="#skill-arsenal" class="nav-link" data-hover-sound="POWER UP!">SKILLS</a></li>
+                <li><a href="#transmit-signal" class="nav-link" data-hover-sound="PING!">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="content-scroll">
+        <section id="character-file" class="comic-panel panel-angled-top-right">
+            <div class="panel-header speech-bubble right">
+                <h2 class="section-title bangers-text" data-text="CHARACTER FILE">CHARACTER FILE</h2>
+            </div>
+            <div class="panel-content about-layout">
+                <div class="profile-image-container">
+                    <img src="https://placehold.co/300x400/e0e0e0/333333?text=Your+Cool+Sketch+Here&font=permanentmarker" alt="Your amazing sketch" class="profile-sketch">
+                    <div class="impact-lines"></div>
+                </div>
+                <div class="bio-text">
+                    <p class="handwritten-text">Yo! I'm [Your Name/Alias], the artist/developer/creator behind these digital scrolls. I sling code like shurikens and design interfaces sharper than a katana (sometimes).</p>
+                    <p class="handwritten-text">My mission? To craft digital experiences that KICK ASS and tell a story. Whether it's [Your Speciality 1] or [Your Speciality 2], I pour my soul (and copious amounts of caffeine) into every line and pixel.</p>
+                    <p class="screaming-text" data-text="GET READY!"><span>GET READY!</span></p>
+                </div>
+            </div>
+        </section>
+
+        <div class="panel-divider manga-gutter">
+            <span class="gutter-text">NEXT PANEL...</span>
+        </div>
+
+        <section id="story-arcs" class="comic-panel panel-full-bleed">
+            <div class="panel-header speech-bubble left pop-out">
+                <h2 class="section-title bangers-text" data-text="STORY ARCS (Projects)">STORY ARCS (Projects)</h2>
+            </div>
+            <div class="projects-grid">
+                <article class="project-item">
+                    <div class="project-thumbnail-container">
+                        <img src="https://placehold.co/400x280/222222/FFFFFF?text=Project+Alpha:+The+Awakening&font=bangers" alt="Project Alpha" class="project-thumbnail">
+                        <div class="project-overlay">
+                            <h3 class="project-title permanent-marker-text">Project Alpha: The Awakening</h3>
+                            <span class="view-trigger" data-hover-sound="VIEW!">VIEW!</span>
+                        </div>
+                    </div>
+                    <div class="project-description handwritten-text">
+                        <p>A tale of a nascent AI achieving sentience. Features dynamic blah blah and impactful woosh!</p>
+                        <a href="#" target="_blank" class="cta-button">ENTER ARC <span class="arrow">&gt;</span></a>
+                    </div>
+                </article>
+                <article class="project-item">
+                    <div class="project-thumbnail-container">
+                        <img src="https://placehold.co/400x280/1a1a1a/FF4500?text=Project+Beta:+Cyberpunk+Chronicles&font=bangers" alt="Project Beta" class="project-thumbnail">
+                         <div class="project-overlay">
+                            <h3 class="project-title permanent-marker-text">Cyberpunk Chronicles</h3>
+                            <span class="view-trigger" data-hover-sound="ENGAGE!">ENGAGE!</span>
+                        </div>
+                    </div>
+                     <div class="project-description handwritten-text">
+                        <p>Navigating the neon-drenched underbelly of a futuristic city. Prepare for glitch effects!</p>
+                        <a href="#" target="_blank" class="cta-button">JACK IN <span class="arrow">&gt;</span></a>
+                    </div>
+                </article>
+                <article class="project-item">
+                     <div class="project-thumbnail-container">
+                        <img src="https://placehold.co/400x280/333333/00FF00?text=Project+Gamma:+Mystic+Realms&font=bangers" alt="Project Gamma" class="project-thumbnail">
+                         <div class="project-overlay">
+                             <h3 class="project-title permanent-marker-text">Mystic Realms Online</h3>
+                            <span class="view-trigger" data-hover-sound="EXPLORE!">EXPLORE!</span>
+                        </div>
+                    </div>
+                    <div class="project-description handwritten-text">
+                        <p>An illustrated interface for a fantasy world. User scrolls are like ancient maps.</p>
+                        <a href="#" target="_blank" class="cta-button">DISCOVER <span class="arrow">&gt;</span></a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <div class="panel-divider manga-gutter black-gutter">
+             <span class="gutter-text white-text">POWERING UP...</span>
+        </div>
+
+        <section id="skill-arsenal" class="comic-panel panel-skewed">
+             <div class="panel-header speech-bubble-alt center">
+                <h2 class="section-title bangers-text" data-text="SKILL ARSENAL">SKILL ARSENAL</h2>
+            </div>
+            <ul class="skills-list">
+                <li class="skill-item" style="--skill-power: 90%; --skill-color: #FF4500;">
+                    <span class="skill-name permanent-marker-text">HTML & CSS</span>
+                    <div class="power-bar"><div class="power-fill"></div></div>
+                    <span class="skill-effect" data-text="SLASH!"><span>SLASH!</span></span>
+                </li>
+                <li class="skill-item" style="--skill-power: 80%; --skill-color: #1E90FF;">
+                    <span class="skill-name permanent-marker-text">JavaScript</span>
+                    <div class="power-bar"><div class="power-fill"></div></div>
+                    <span class="skill-effect" data-text="ZAP!"><span>ZAP!</span></span>
+                </li>
+                <li class="skill-item" style="--skill-power: 70%; --skill-color: #32CD32;">
+                    <span class="skill-name permanent-marker-text">[Your Skill Here]</span>
+                    <div class="power-bar"><div class="power-fill"></div></div>
+                    <span class="skill-effect" data-text="SMASH!"><span>SMASH!</span></span>
+                </li>
+                <li class="skill-item" style="--skill-power: 95%; --skill-color: #FFD700;">
+                    <span class="skill-name permanent-marker-text">CREATIVE CHAOS</span>
+                    <div class="power-bar"><div class="power-fill"></div></div>
+                    <span class="skill-effect" data-text="UNLEASH!"><span>UNLEASH!</span></span>
+                </li>
+            </ul>
+        </section>
+
+        <section id="transmit-signal" class="comic-panel panel-diagonal-split">
+            <div class="split-left halftone-bg">
+                <div class="panel-header speech-bubble right small">
+                    <h2 class="section-title bangers-text" data-text="TRANSMIT SIGNAL">TRANSMIT</h2>
+                </div>
+            </div>
+            <div class="split-right">
+                 <h2 class="section-title bangers-text visible-mobile" data-text="SIGNAL">SIGNAL</h2>
+                <p class="handwritten-text">Need a hero for your next digital quest? Or just wanna share epic fanart?</p>
+                <div class="contact-links">
+                    <a href="mailto:your.alias@example.com" class="contact-link" data-hover-sound="SEND!"><span class="icon">✉️</span> EMAIL SCROLL</a>
+                    <a href="#" target="_blank" class="contact-link" data-hover-sound="CONNECT!"><span class="icon">✍️</span> GUEST ARTIST (LinkedIn)</a>
+                    <a href="#" target="_blank" class="contact-link" data-hover-sound="UPLOAD!"><span class="icon">💾</span> DATA REPOSITORY (GitHub)</a>
+                </div>
+                <div class="random-sound-container">
+                    <p id="random-sound-text" class="action-text">CLICK ME!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="credits-roll">
+        <p class="permanent-marker-text">&copy; <span id="current-year"></span> [Your Artist Name]. All rights reserved... for now.</p>
+        <p class="bangers-text">TO BE CONTINUED...? <span class="blink-text">▋</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
