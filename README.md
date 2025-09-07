@@ -116,4 +116,4 @@ For any questions or suggestions, please open an issue in the repository.
 
 ---
 
-Made with ❤️ and lots of comic book inspiration! 
+Made with ❤️ and lots of comic book inspiration by Rc Guevarra! 
